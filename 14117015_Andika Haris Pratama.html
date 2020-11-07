@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tugas Praktikum</title>
+        <style>
+           
+            .header {
+                background-color: rgba(255, 94, 0, 0.295);
+                width: 784px;
+                height: 200px;
+            }
+            .kolom1{
+                height: 100%;
+                position: fixed;
+                width: 200px;
+                background-color: white;
+            }
+            .kolom2 {
+                background-color: #efefef;
+                margin-left: 200px;
+                height: 100%;
+                width: 584px;
+              
+            }
+            .footer {
+                position: fixed;
+                width: 784px;
+                height: 100px;
+                
+                text-align: center;
+                background-color: #d6d6d6
+            }
+           
+
+        </style>
+    </head>
+
+        <div class="header">
+          <h1>Pemrograman Web</h1>
+          <p>Tutorial membuat layout </p>
+          <img src="kucing.jpg" alt="ini gambar kochenk" width="100px" height="100px">
+        </div>
+
+    <section class="kolom1">
+        <ul>
+            <li><a href="#">Belajar HTML</a></li>
+            <li><a href="#">Belajar CSS</a></li>
+        </ul>
+    </section>
+
+    <section class="kolom2">
+        <form action="#">
+            Nama <input type="text" name="nama" placeholder="Masukkan nama lengkap"><br><br>
+            Gender  <input type="radio" name="gender"  value="Laki-laki">Laki-laki
+                    <input type="radio"  name="gender" value="Perempuan">Perempuan 
+                    <br><br>
+            Alamat <input type="text" name="alamat" placeholder="Masukkan alamat lengkap"><br><br>
+            Negara <select name="negara" id="country">
+                <option value="Indonesia">Indonesia</option>
+                <option value="Amerika">Amerika</option>
+                <option value="Jepang">Jepang</option>
+                <option value="Cina">Cina</option>
+                <option value="Rusia">Rusia</option>
+                </select>
+            <br><br>
+           Email <input type="email" name="email " id="email" placeholder="Masukkan Email anda"><br><br>
+           Foto    <input type="file" name="gambar"><br><br>
+           Komentar <textarea name="" id="" cols="30" rows="10" placeholder="Kolom komentar"></textarea>
+           <input type="submit" name="" id="">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="margin">14117015_Andika Haris Pratama</p>
+    </footer>
